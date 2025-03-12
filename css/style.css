@@ -7,7 +7,7 @@
 }
 body{
     font-family: "Inter", sans-serif;
-    background-color: antiquewhite;
+    background-color: #161616;
 }
 li {
     list-style: none;
@@ -103,7 +103,6 @@ a {
 }
 .bottom{
     height: 130px;
-    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -138,6 +137,15 @@ span#mastersonginfo {
     
     margin-top: -26px;
 }
+#time {
+    height: 30px;
+    width: 10vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
 
 @media(max-width:1399px){
     .container{

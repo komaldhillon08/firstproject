@@ -108,3 +108,10 @@ document.getElementById("previous").addEventListener("click" , () =>{
     masterPlay.classList.remove("fa-circle-play");
     masterPlay.classList.add("fa-circle-pause");
 })
+
+// time function
+let clock  = document.getElementById("time");
+setInterval( () => {
+    let time = new Date() ;
+    clock.innerHTML = (time.toLocaleString())
+},1000)
